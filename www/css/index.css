@@ -30,7 +30,7 @@ body {
     height:100%;
     margin:0px;
     padding:0px;
-    text-transform:uppercase;
+    //text-transform:uppercase;
     width:100%;
 }
 
@@ -111,4 +111,32 @@ h1 {
 .hashtag {
   text-align:center;
   margin-top: 10px;
+}
+
+#backbutton {
+  position: fixed;
+  left:0px;
+  top:0px;
+}
+#container {
+  border: 0px solid;
+  max-width: 640px;
+  padding-right: 50px;
+  margin: auto;
+  display: block;
+  overflow-x: hidden;
+}
+#header {
+    top: 0px;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    display: block;
+    padding-bottom:15px;
+
+}
+td {
+  width: 33.3%;
 }
